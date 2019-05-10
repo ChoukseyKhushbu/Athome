@@ -1,100 +1,159 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>AtHome</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <div id="heading1">
-            
-                    <a href="#" class="current">AH</a>
-                    <a href="#" class="current1">AtHome</a>
-            <!-- <ul> -->
-                     <li><a href="#" >Become a Professional</a></li>
-                     <li><a href="#" >Login</a></li>
-                     <li><a href="#" >Sign Up</a></li>
-            <!-- </ul> -->
-            
+
+<head>
+    <meta charset="utf-8">
+    <title>AtHome</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery-3.4.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="#">Top navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-        <div id="top">
-                <img src="img/back handsheck.jpg" height="400" width=100%>
-                <div>
-                    <a class="box" rbga(0,0,0,0.3)>Search for service</a>
-                    <a class="button">Search</a>
-                </div>
-                
+    </nav> -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">AtHome</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <!-- <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li> -->
+                <li><a href="#">Become a Professional</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
         </div>
-        <div id="heading2">
-            <h2 class="head2">AtHome - Your Home Service Expert!</h2>
+    </nav>
+    <!-- <div class="top-header">
+
+        <a href="#" class="current">AH</a>
+        <a href="#" class="current1">AtHome</a>
+        <ul>
+            <li><a href="#">Become a Professional</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign Up</a></li>
+        </ul> 
+    </div> -->
+    <div id="top">
+        <img src="img/bg6.jpg" width="100%">
+    </div>
+    <div class="row">
+<div class="md2"></div>
+    </div>
+    <div class="input-group md-form form-sm form-2 pl-0">
+        <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+            <span class="input-group-text amber lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                    aria-hidden="true"></i></span>
         </div>
-        <div id="tag1">
-            <h2>Recommended Services</h2>
-            <div class="tag">
-                <li><img class="sizee" src="img/maid.jpg"></li>
-                <li><a href="#">Part time Maid</a></li>
-            </div>
-            <div class="tag">
-                <li><img class="sizee" src="img/AcServices.jpg"></li>
-                <li><a href="#">AC Service and Repair</a></li>
-            </div>
-            <div class="tag">
-                <li><img class="sizee" src="img/cleaning.jpg"></li>
-                <li><a href="#">Home Deep Cleaning</a></li>
-            </div>
-            <div class="tag">
-                <li><img class="sizee" src="img/loundary.jpg"></li>
-                <li><a href="#">Dry Cleaning/Loundary</a></li>
-            </div>
-            <div class="tag">
-                <li><img class="sizee" src="img/plumber.jpg"></li>
-                <li><a href="#">Plumber</a></li>
-            </div>
-            <div class="tag">
-                <li><img class="sizee" src="img/electrician.jpg"></li>
-                <li><a href="#">Electrician</a></li>
-            </div>
-            <div class="tag">
-                <li><img class="sizee" src="img/pestcontrol.jpg"></li>
-                <li><a href="#">Pestcontrol</a></li>
-            </div>
-            <div class="tag">
-                <li><img class="sizee" src="img/water heater maintainance.jpg"></li>
-                <li><a href="#">Water Heater Maintenance</a></li>
-            </div>
+    </div>
+    <div style="text-align:center;">
+    <input type="text" class="search-box" name="search" placeholder="Search..">
+    </div>
+    <div id="heading2">
+        <h2 class="head2">AtHome - Your Home Service Expert!</h2>
+    </div>
+    <div id="tag1">
+        <h2>Recommended Services</h2>
+        
+        <span class="inline">
+            <li><img class="sizee" src="img/maid.jpg"></li>
+            <a href="#">Part time Maid</a>
+        </span>
+        <span class="inline">
+            <li><img class="sizee" src="img/AcServices.jpg"></li>
+            <li><a href="#">AC Service and Repair</a></li>
+        </span>
+        <span class="inline">
+            <li><img class="sizee" src="img/cleaning.jpg"></li>
+            <li><a href="#">Home Deep Cleaning</a></li>
+        </span>
+        <span class="inline">
+            <li><img class="sizee" src="img/loundary.jpg"></li>
+            <li><a href="#">Dry Cleaning/Loundary</a></li>
+        </span>
+        <span class="inline">
+            <li><img class="sizee" src="img/plumber.jpg"></li>
+            <li><a href="#">Plumber</a></li>
+        </span>
+        <span class="inline">
+            <li><img class="sizee" src="img/electrician.jpg"></li>
+            <li><a href="#">Electrician</a></li>
+        </span>
+        <span class="inline">
+            <li><img class="sizee" src="img/pestcontrol.jpg"></li>
+            <li><a href="#">Pestcontrol</a></li>
+        </span>
+        <span class="inline">
+            <li><img class="sizee" src="img/water heater maintainance.jpg"></li>
+            <li><a href="#">Water Heater Maintenance</a></li>
+        </span>
+    </div>
+    <hr color="#ffc8c8" width="100%" size="50%">
+    <h1><center>Customer Review</center></h1> 
+    <div class="grid-container">
+        <div>
+            <ul>
+                <img src="profilepic/g4.jpg" alt="propfilepic/p" width="50%">
+                <h4>Khushbu </h4>
+                <p>Great service.<br> works on a very systematic process <br>and consist of good technicians.</p>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <img src="profilepic/download.jpg" alt="propfilepic/p" width="50%" >
+                <h4>Divyansh </h4>
+                <p>Reasonably priced,no overcharging,<br>satisfactory services and punctual people.<br> What more do you
+                ask for!!</p>
+            </ul>
         </div>
         
-        
-        <div id="customer">
-            <h3>Customer Review</h3>
-            <div class="review">
-                <ul>
-                    <img src="" alt="">
-                    <h4>Kajal </h4>
-                    <p>Such hygienic services by ATHome.<br>#Superimpressed!!</p>
-                </ul>
-                <ul>
-                    <img src="" alt="">
-                    <h4>Khushbu </h4>
-                    <p>Great service.<br> works on a very systematic process <br>and consist of good technicians.</p>
-                </ul>
-                <ul>
-                    <img src="" alt="">
-                    <h4>Divyansh </h4>
-                    <p>Reasonably priced,no overcharging,<br>satisfactory services and punctual people.<br> What more do you ask for!!</p>
-                </ul>
-            </div>
+        <div>
+            <ul>
+                <img src="profilepic/g2.jpg" alt="propfilepic/p" width="50%">
+                <h4>Kajal </h4>
+                <p>Such hygienic services by ATHome.<br>#Superimpressed!!</p>
+            </ul>
         </div>
-        <hr color="#99b017" size="20px">
+    </div>
+    <hr color="#01474d" size="#01474d">
 
-        <div id="bottom">
-            <a href="#" class="end">AH</a>
-            <a href="#heading1" class="end1">AtHome</a>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Follow us</a></li>
-            <li><img src="icon/Facebook-128 (1).png"></li>
-            <li><img src="icon/Twitter-128.png"></li>
-            <li><img src="icon/Instagram-128.png"></li>
+    <div id="bottom">
+        <a href="#" class="end">AH</a>
+        <a href="#heading1" class="end1">AtHome</a>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Follow us</a></li>
+        <li><img src="icon/Facebook-128 (1).png"></li>
+        <li><img src="icon/Twitter-128.png"></li>
+        <li><img src="icon/Instagram-128.png"></li>
 
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
