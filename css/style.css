@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 #img1{
     width: 5%;
@@ -128,7 +129,7 @@ display: table;
     padding: 20px;
     width: 25%;
     margin: 30px 100px 30px 100px;
-    border: 4px outset #f3dad5;
+    border: 4px outset #f5b6a9;
     border-radius: 30px;
     list-style-type: none;
     text-decoration: none;
@@ -180,6 +181,7 @@ display: table;
     margin-right:700px;
 }
 .grid-container {
+  
   display: grid;
   margin: 100px;
   grid-template-columns: 33% 33% 33% ;
@@ -188,7 +190,9 @@ display: table;
   background-color: rgb(239, 247, 246);
   padding: 10px;
 }
-
+.grid-container img{
+    border-radius: 50%;
+}
 .grid-container > div {
   background-color: rgb(255, 255, 255);
   background-image: linear-gradient(to bottom right, rgba(145, 224, 233, 0.781), white);
