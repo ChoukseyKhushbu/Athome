@@ -202,4 +202,18 @@ display: table;
 h6{
     text-decoration: underline;
 }
+.head2{
+    margin: 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration-style: solid;
+    color: #015075;
+}
+.head3{
+    margin: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration-style: solid;
+    color: #69474e;
+}
 
