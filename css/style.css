@@ -53,9 +53,7 @@ input.search-box:focus {
     font-size: 14px;
     font-weight: bolder;
 } */
-a{
-    list-style-type: none;
-}
+
 
 .sizee{
     width: 265px;
@@ -85,56 +83,61 @@ a{
     margin-right: 20px; 
 }
 
-/* #heading1 a,.top-header a{
-    color:#fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    padding: 6px;
-} */
-/* .current{
-    font-weight: bolder;
-    border:5px solid #000000;
-    border-radius: 2px;
-    margin-left: 10px;
-    margin-right:0px;
-} */
-/* .current1{
-    margin-left: 0px;
-    margin-right:700px;
-} */
 .tag1 li{
     text-decoration: none;
     list-style-type: none;
 }
-/* .tag1{
-    float: left;
-    width: 50%;
-    padding: 5px;
+#tag1{
+    /* max-width: 2000000000000px; */
+    display: flex;
+    margin: 0 auto;
 }
-.tag::after{
-content: " ";
-clear: both;
-display: table;
-} */
-/* #tag1 .tag{
-    border: 4px inset #fff;
-    position: centre;
-    border-width: 25%;
-    height: 50%;
-    display: inline-block;
-    border-radius: 50px;
-} */
-.inline{
+.tag2{
+    display: flex;
+ 
+    flex-wrap: wrap;
+    align-items:flex-start;
+    margin:100 0px;
+    flex: 14;
+    order: 1;
+    line-height: 4;
+    /* display: flex; */
+    /* flex-basis: 30%;   */
+    align-items: flex-end;
+}
+/*   
+  .inline1 {
+    background-color: rgb(216, 245, 240);
+    background-image: linear-gradient(to bottom right,#87c0eea9, white);
     padding: 20px;
-    width: 25%;
-    margin: 30px 100px 30px 100px;
-    border: 4px outset #f5b6a9;
-    border-radius: 30px;
+
+    flex-basis: 30%;
+    
+} */
+
+.tag3 {
+    
+    flex: 1;
+    padding: 30px;
+    order: 2;    
+    margin: auto;
+    padding: 20px auto  ;
+    /* flex-basis: 50%; */
+    flex-direction: column;
+  }
+.inline{
+    padding: 30px 0;
+    margin: 40px 10px 0px 0px;
     list-style-type: none;
     text-decoration: none;
     display: inline-block;
+    justify-content: space-evenly;
 }
+/* .inline1{
+    padding: auto 100px auto 50px;
+    display: flex;
+    justify-content: space-around;
+}  */
 .review{
     position: relative;
 }
